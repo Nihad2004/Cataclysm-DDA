@@ -619,7 +619,26 @@
       "male": [ "boxer_briefs" ],
       "female": [ "bra", "panties" ]
     }
-  },
+  },  
+  {
+  "type": "profession",
+  "id": "baseball_player",
+  "name": "Baseball Player",
+  "description": "You were playing at the local team.  With no one left to play baseball, you can eventually use your best friend for another purpose.  Home run!",
+  "points": 1,
+  "skills": [
+    { "level": 3, "name": "throw" },
+    { "level": 1, "name": "melee" }
+  ],
+  "items": {
+    "both": {
+      "items": [ "baseball", "tshirt", "jacket_light", "jeans", "socks", "sneakers", "helmet_ball", "sports_drink" ],
+      "entries": [ { "group": "charged_cell_phone" }, { "item": "bat", "custom-flags": [ "auto_wield" ] } ]
+    },
+    "male": [ "boxer_shorts" ],
+    "female": [ "sports_bra", "panties" ]
+   }
+ },
   {
     "type": "profession",
     "id": "basketball_player",
